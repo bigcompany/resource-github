@@ -1,8 +1,6 @@
 var resource = require('resource'),
 github = resource.define('github');
 
-github.schema.description = "for interacting with the Github.com API";
-
 github.method('activity', activity, {
   "description": "gets event activity for a user or organization",
   "properties": {
