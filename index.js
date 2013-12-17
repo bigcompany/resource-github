@@ -4,7 +4,7 @@ github = resource.define('github');
 
 
 github.dependencies = {
-  "github": "*"
+  github: '*'
 };
 
 exports.github = github;
