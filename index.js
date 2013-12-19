@@ -8,8 +8,4 @@ var github = module.exports = resource.define('github', {
   schema: ghMschema,
 });
 
-github.dependencies = {
-  github: '*'
-};
-
 exports.github = github;
